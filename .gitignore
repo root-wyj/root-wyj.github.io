@@ -10,6 +10,8 @@ mvnw.cmd
 .idea/*
 target/
 bin/
+node_modules/
+.deploy_git/
 
 ### STS ###
 .apt_generated
