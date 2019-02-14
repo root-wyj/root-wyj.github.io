@@ -12,6 +12,7 @@ target/
 bin/
 node_modules/
 .deploy_git/
+public/
 
 ### STS ###
 .apt_generated
