@@ -146,15 +146,15 @@ private static Map<String, List<String>> loadSpringFactories(@Nullable ClassLoad
 
 比如其中的一个 `META-INFO/spring.factories` 如下：`jar:file:/Users/wuyingjie/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE.jar!/META-INF/spring.factories`
 
-![|center](/note_all/blob/master/images/springboot启动流程-1.png)
+![|center](/images/springboot启动流程-1.png)
 
 result 也就是扫描出来的所有key和类名数组如下：
 
-![|center](/note_all/blob/master/images/springboot启动流程-2.png)
+![|center](/images/springboot启动流程-2.png)
 
 `org.springframework.context.ApplicationContextInitializer`对应的类有：
 
-![|center](/note_all/blob/master/images/springboot启动流程-3.png)
+![|center](/images/springboot启动流程-3.png)
 
 
 <br>
@@ -163,7 +163,7 @@ result 也就是扫描出来的所有key和类名数组如下：
 
 `org.springframework.context.ApplicationListener` 对应的类有：
 
-![|center](/note_all/blob/master/images/springboot启动流程-4.png)
+![|center](/images/springboot启动流程-4.png)
 
 <br>
 
